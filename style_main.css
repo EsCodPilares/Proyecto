@@ -1,0 +1,93 @@
+/* PARTE PRINCIPAL */
+
+/* RECOMENDACIONES */
+.titulos{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #911c0d;
+    padding: 10px;
+    margin: 150px 10px 30px;
+}
+
+.seccion_libros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contenedor_libro{
+    text-align: center;
+}
+
+.imagen_libro{
+    width: 200px;
+    height: 350px;
+    margin: 5px 10px;
+}
+.titulo_libro{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 5px 10px;
+
+}
+.autor{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+    margin: 15px 10px;
+
+}
+.boton_rojo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px #911c0d solid;
+    background-color: #911c0d;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 3px 10px;
+    margin: 5px 10px;
+}
+
+.contenedor_precio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.precio{
+    color: #976905;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* CONÓCENOS */
+.contenedor_conocenos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 100px 0px;
+}
+.conocer_texto{
+    width: 700px;
+    height: 400px;
+}
+.titulo_conocenos{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #911c0d;
+    padding: 10px 0px;
+}
+.conocenos_texto1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+}
+.imagen_libreria{
+    width: 700px;
+    height: 400px;
+}
+.te_esperamos{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #911c0d;
+    text-align: center;
+}

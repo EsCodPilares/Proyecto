@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+header{
+    width: 100%;
+    height: 100vh;
+}
+
+/* Título Página */
+
+.contenedor_titulo_menu{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.titulo_principal{
+    font-size: 5rem;
+    color: #642E08;
+    font-family: "Caveat", serif;
+    font-weight: 700;
+    padding: 0.5rem;
+    margin-right: 4rem;
+}
+
+/* Menú búsqueda */
+
+.contenedor_buscador{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+    margin-right: 8rem;
+}
+
+.buscador{
+    display: flex;
+    height: 2rem;
+}
+
+.entrada_buscador{
+    border: 2px solid #642E08;
+    border-radius: 1rem 0 0 1rem;
+    padding: 0.5rem;
+    height: 110%;
+    width: 15rem;
+}
+.img_lupa{
+    background-color: #d2cfcf;
+    height: 100%;
+    border: 2px solid #642E08;
+}
+
+.contenedor_iconos{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.boton_menu{
+    padding: 0.2rem;
+}
+
+.iconos_menu{
+    height: 2rem;
+}
+
+/* Barra de Navegación */
+
+.barra_navegacion{
+    background-color: #B69A76;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista_navegacion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+}
+
+.enlace_menu{
+    color:#FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.enlace_menu:hover{
+    color:#6E2E08;
+    font-size: 1.5rem;
+}
+
+.enlace_menu:active{
+    color: #B69A76;
+    background-color: #6E2E08;
+    font-size: 1.5rem;
+}
+
+/* Portada */
+
+.portada{
+    width: 100%;
+    height: 65vh;
+    background-image: url(https://github.com/EsCodPilares/Imagenes_Proyecto_DW/assets/159093155/cd26affd-c4f2-4a6d-bb6e-0b079972f5ac);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.eslogan_portada{
+    font-size: 3.5rem;
+}
+
+.frase_portada{
+    font-size: 2rem;
+}

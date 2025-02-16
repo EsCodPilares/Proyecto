@@ -1,0 +1,126 @@
+/* FOOTER */
+
+footer{
+    background-color: #B69A76;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 55vh;
+}
+
+.titulo_footer{
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 0.5rem 0.5rem;
+}
+
+.contenedor_footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 85%;
+    width: 100%;
+}
+
+.el_tunel_footer, .informacion_footer, .suscribete_footer{
+    width: 30%;
+}
+
+.link_menu_footer, .correo_footer{
+    color: #FFFFFF;
+}
+
+/* Texto Footer */
+
+.footer_txt{
+    margin: 0.5rem 0.5rem;
+    text-align: justify;
+}
+
+.contenedor_direccion, .contenedor_telefono, .contenedor_correo{
+    margin: 1rem 0.5rem;
+}
+
+.iconos_footer{
+    height: 1.1rem;
+}
+
+.texto_direccion, .texto_telefono{
+    display: inline;
+    text-align: justify;
+}
+
+.correo_footer:hover{
+    color: #911c0d;
+    text-decoration: underline;
+}
+
+.correo_footer:active{
+    color: #551A8B;
+    text-decoration: underline;
+}
+
+/* Redes Sociales */
+
+.redes_sociales{
+    display: flex;
+    justify-content:  center;
+    margin: 1rem 0.5rem;
+}
+
+.link_redes{
+    margin: 1rem 0.7rem;
+}
+
+.img_redes{
+    height: 2rem;
+}
+
+/* Información */
+.link_menu_footer:hover{
+    color: #911c0d;
+    text-decoration: underline;
+}
+
+.link_menu_footer:active{
+    color: #551A8B;
+    text-decoration: underline;
+}
+
+.elemento_menu_footer{
+    margin: 0.7rem 0.5rem;
+}
+
+/* Suscríbete */
+.texto_suscribete{
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+    text-align: justify;
+}
+
+.correo_suscribete{
+    margin: 1rem 1rem;
+}
+.entrada_correo{
+    border: #976905 solid 1px;
+    width: 85%;
+    height: 1.5rem;
+}
+.boton_enviar_correo{
+    background-color: #976905;
+    color: #FFFFFF;
+    height: 1.5rem;
+    width: 3rem;
+}
+
+/* Texto Final */
+.contenedor_footer2{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto_derechos_reservados{
+    font-size: 0.8rem;
+}
